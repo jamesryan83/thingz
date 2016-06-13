@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="lib/normalize.css" />
+
+        <script src="lib/jquery-3.0.js"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300' rel='stylesheet' type='text/css'>
+
+        <script src="lib/greensock/minified/TweenMax.min.js"></script>
+        <script src="lib/scrollmagic/minified/ScrollMagic.min.js"></script>
+        <script src="lib/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+        <script src="lib/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+
+        <script src="lib/jquery.mousewheel.min.js"></script>
+        <script src="lib/jquery.mask.min.js"></script>
+
+        <link rel="stylesheet" href="css/app.css" />
+
+        <script src="js/app.js"></script>
+
+    </head>
+
+    <body>
+        <div id="main-container">
+
+            <!-- Sections -->
+            <div id="sections">
+
+
+
+                <!-- Section 1 -->
+                <div class="section" id="section-1">
+                    <video class="center" autoplay loop>
+                        <source src="res/vid1.webm" />
+                    </video>
+
+                    <div id="text-title" class="center">
+                        <p>We have things</p>
+                        <h1>Amazing Things</h1>
+                        <p>We only sell the highest quality things</p>
+                    </div>
+
+                    <div class="next-page-btn"></div>
+                </div>
+
+
+
+
+                <!-- Section 2 -->
+                <div class="section" id="section-2">
+
+
+                    <div id="content-left">
+
+                        <div id="scroll-items" class="center">
+                            <div class="scroll-arrow-container">
+                                <div id="scroll-arrow-left-btn" class="center"></div>
+                            </div>
+
+                            <div id="scroll-main"></div>
+
+                            <div class="scroll-arrow-container">
+                                <div id="scroll-arrow-right-btn" class="center"></div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div id="content-right">
+
+                        <div id="text-2-1" class="center">
+                            <p>We sell all kinds of things</p>
+                            <button>Buy our things we're selling</button>
+                        </div>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="next-page-btn"></div>
+                </div>
+
+
+
+
+                <!-- Section 3 -->
+                <div class="section" id="section-3">
+                    <video class="center" autoplay loop>
+                        <source src="res/vid2.webm" />
+                    </video>
+
+                    <div id="text-3-1" class="center">
+                        <p>Look how fast these cars are going !</p>
+                    </div>
+
+                    <div class="next-page-btn"></div>
+                </div>
+
+
+
+
+                <!-- Section 4 -->
+                <div class="section" id="section-4">
+                    <div class="center">
+
+                        <h2>Give us money and we'll send you a Thing !</h2>
+                        <p>Simply enter your personal credit card number below and select a donation amount.  Our unsecure network will then take your money</p>
+                        <p>It's that easy !</p>
+
+                        <div class="label-input">
+                            <label>Credit Card # : </label>
+                            <input type="text" id="credit-card" />
+                        </div>
+
+                        <div class="button-group">
+                            <button>$ 1 million</button>
+                            <button>$ 8 million</button>
+                            <button>$ All your money</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Page nav menu button -->
+            <div id="nav-menu-btn-background" class="noselect"></div>
+            <div id="nav-menu-btn-open" class="noselect"></div>
+
+
+            <!-- Overylay covering section transition -->
+            <div id="overlay"></div>
+
+
+            <!-- Section nav bar -->
+            <ul id="section-nav" class="noselect">
+                <li><a href="javascript:void(0)" onclick="app.sectionNav(1)" class="active-item">01</a></li>
+                <li><a href="javascript:void(0)" onclick="app.sectionNav(2)">02</a></li>
+                <li><a href="javascript:void(0)" onclick="app.sectionNav(3)">03</a></li>
+                <li><a href="javascript:void(0)" onclick="app.sectionNav(4)">04</a></li>
+            </ul>
+
+
+            <!-- Page nav menu -->
+            <div id="nav-menu-background"></div>
+            <div id="nav-menu" class="navMenuClosed">
+                <div class="nav-menu-part" id="nav-menu-1"></div>
+                <div class="nav-menu-part" id="nav-menu-2"></div>
+                <div class="nav-menu-part" id="nav-menu-3"></div>
+                <div id="nav-menu-btn-close" class="noselect"></div>
+
+                <div id="nav-menu-links">
+                    <a class="nav-menu-link" id="nav-menu-link-1" href="/store">Store</a>
+                    <a class="nav-menu-link" id="nav-menu-link-2" href="/about">About</a>
+                    <a class="nav-menu-link" id="nav-menu-link-3" href="/contact">Contact</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Temp div for small screens -->
+        <div id="responsive">
+            <p>Not responsive yet :(</p>
+            <p>Please view on desktop browser</p>
+            <video class="center" autoplay loop>
+                <source src="res/vid-res.webm" />
+            </video>
+        </div>
+
+
+        <script src="lib/preloadjs.js"></script>
+    </body>
+</html>
