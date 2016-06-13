@@ -10,7 +10,7 @@ window.onload = function () {
     // preload assets
     var preload = new createjs.LoadQueue("../res/");
     preload.on("complete", function () {
-        console.log("hi")
+
     }, this)
     preload.loadManifest([
         "res/images/fabric-1-dark.png",

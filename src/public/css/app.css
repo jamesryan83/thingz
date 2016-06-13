@@ -75,7 +75,11 @@
           #main-container #sections #section-2 #content-left #scroll-items #scroll-main {
             float: left;
             width: calc(100% - 80px);
-            height: 100%; }
+            height: 100%;
+            position: relative; }
+            #main-container #sections #section-2 #content-left #scroll-items #scroll-main > img {
+              max-height: 90%;
+              max-width: 90%; }
       #main-container #sections #section-2 #content-right {
         width: 40%; }
         #main-container #sections #section-2 #content-right #text-2-1 {
@@ -92,11 +96,21 @@
             margin-top: 20px; }
             #main-container #sections #section-2 #content-right #text-2-1 button:hover {
               border-radius: 5px; }
-    #main-container #sections #section-3 #text-3-1 {
+    #main-container #sections #section-3 #text-3-1, #main-container #sections #section-3 #text-3-2 {
+      position: absolute;
       background-color: rgba(0, 0, 0, 0.6);
       color: white;
       padding: 20px;
-      top: 35%; }
+      top: 17%;
+      right: 10%; }
+      #main-container #sections #section-3 #text-3-1 p, #main-container #sections #section-3 #text-3-2 p {
+        padding-bottom: 5px; }
+      #main-container #sections #section-3 #text-3-1 p:last-of-type, #main-container #sections #section-3 #text-3-2 p:last-of-type {
+        padding-bottom: 0; }
+    #main-container #sections #section-3 #text-3-2 {
+      font-size: 0.9em;
+      padding: 10px;
+      top: calc(17% + 90px); }
     #main-container #sections #section-4 {
       background: #1A2980;
       /* fallback for old browsers */
