@@ -18,7 +18,7 @@ window.onload = function () {
         "res/svg/nav-menu-1.svg",
         "res/svg/nav-menu-2.svg",
         "res/svg/nav-menu-3.svg",
-        "res/svg/vid2.webm"        
+        "res/svg/vid2.webm"
     ]);
 }
 
@@ -70,7 +70,7 @@ app.startup = function () {
     $("#credit-card").mask("0000-0000-0000-0000");
 
 
-    app.goToSection(2)
+    //app.goToSection(2)
 }
 
 
