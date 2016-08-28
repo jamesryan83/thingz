@@ -295,7 +295,7 @@ html, body {
 
 .noselect {
   -webkit-user-select: none;
-  -ms-user-select: none;
+  -moz-user-select: none;
   user-select: none; }
 
 button, input {
