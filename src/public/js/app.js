@@ -1,12 +1,18 @@
 "use strict";
 var app = {};
 
-// on ready
-$(document).ready(function () {
-    app.startup();
-});
 
+// Current section index
+app.currentSectionIndex = 1;
+app.isSectionTransitionAnimating = false;
+app.isNavMenuOpen = false;
+app.isNavMenuAnimating = false;
+
+
+
+// startup
 window.onload = function () {
+
     // preload assets
     var preload = new createjs.LoadQueue("../res/");
     preload.on("complete", function () {
@@ -20,18 +26,8 @@ window.onload = function () {
         "res/svg/nav-menu-3.svg",
         "res/svg/vid2.webm"
     ]);
-}
-
-// Current section index
-app.currentSectionIndex = 1;
-app.isSectionTransitionAnimating = false;
-app.isNavMenuOpen = false;
-app.isNavMenuAnimating = false;
 
 
-
-// Startup
-app.startup = function () {
 
     // mousewheel event
     $(window).mousewheel(function (e) {
@@ -70,12 +66,9 @@ app.startup = function () {
     $("#credit-card").mask("0000-0000-0000-0000");
 
 
+    // temp
     //app.goToSection(2)
 }
-
-
-
-
 
 
 
