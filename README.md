@@ -1,3 +1,3 @@
 A demo home page
 
-[Website is here](http://demo.azurewebsites.net/)
+[Website is here](http://thingz.azurewebsites.net/)
