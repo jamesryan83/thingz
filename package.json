@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo site",
+  "main": "",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "author": "James Ryan (https://github.com/jamesryan83)",
+  "license": "MIT"
+}

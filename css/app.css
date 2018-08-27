@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.clearfix {
+  clear: both; }
+
+.noselect {
+  -webkit-user-select: none;
+  user-select: none; }
+
+button, input {
+  outline: none; }
+
+#main-container {
+  height: 100%;
+  overflow: hidden; }
+
+#sections {
+  position: relative;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  top: 20px;
+  left: 20px;
+  overflow: hidden; }
+  #sections .section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    overflow: hidden; }
+    #sections .section video {
+      min-height: 100%;
+      min-width: 100%; }
+    #sections .section .next-page-btn {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 30px;
+      height: 20px;
+      width: 30px;
+      background-size: 100% 100%;
+      background-image: url(res/svg/next-page.svg); }
+      #sections .section .next-page-btn:hover {
+        cursor: pointer; }
+  #sections #section-1 {
+    display: block; }
+    #sections #section-1 #text-title {
+      text-align: center;
+      white-space: nowrap;
+      color: white; }
+      #sections #section-1 #text-title h1 {
+        margin-top: 10px;
+        font-size: 3em; }
+  #sections #section-2 {
+    background: #00bf8f;
+    /* fallback for old browsers */
+    background: linear-gradient(to left, #00bf8f, #001510);
+    background: radial-gradient(circle at 1.98% 51.98%, #085078, transparent 100%), radial-gradient(circle at 98.02% 65.01%, #85D8CE, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%); }
+    #sections #section-2 #content-left, #sections #section-2 #content-right {
+      float: left;
+      height: 100%;
+      position: relative; }
+    #sections #section-2 #content-left {
+      width: 60%; }
+      #sections #section-2 #content-left #scroll-items {
+        height: 70%;
+        width: 80%; }
+        #sections #section-2 #content-left #scroll-items .scroll-arrow-container {
+          position: relative;
+          float: left;
+          width: 40px;
+          height: 100%; }
+        #sections #section-2 #content-left #scroll-items #scroll-arrow-left-btn, #sections #section-2 #content-left #scroll-items #scroll-arrow-right-btn {
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          height: 25px;
+          width: 25px;
+          cursor: pointer; }
+          #sections #section-2 #content-left #scroll-items #scroll-arrow-left-btn:active, #sections #section-2 #content-left #scroll-items #scroll-arrow-right-btn:active {
+            transform: translate(-50%, -50%) scale(0.9); }
+        #sections #section-2 #content-left #scroll-items #scroll-arrow-left-btn {
+          background-image: url(res/svg/arrow-left.svg); }
+        #sections #section-2 #content-left #scroll-items #scroll-arrow-right-btn {
+          background-image: url(res/svg/arrow-right.svg); }
+        #sections #section-2 #content-left #scroll-items #scroll-main {
+          float: left;
+          width: calc(100% - 80px);
+          height: 100%;
+          position: relative; }
+          #sections #section-2 #content-left #scroll-items #scroll-main > img {
+            max-height: 90%;
+            max-width: 90%; }
+    #sections #section-2 #content-right {
+      width: 40%; }
+      #sections #section-2 #content-right #text-2-1 {
+        text-align: center;
+        transform: translateX(-70%); }
+        #sections #section-2 #content-right #text-2-1 p {
+          color: white; }
+        #sections #section-2 #content-right #text-2-1 button {
+          border: 2px solid white;
+          padding: 10px 20px;
+          color: white;
+          background-color: transparent;
+          margin-top: 20px; }
+          #sections #section-2 #content-right #text-2-1 button:hover {
+            border-radius: 5px; }
+  #sections #section-3 #text-3-1, #sections #section-3 #text-3-2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    top: 17%;
+    right: 10%; }
+    #sections #section-3 #text-3-1 p, #sections #section-3 #text-3-2 p {
+      padding-bottom: 5px; }
+    #sections #section-3 #text-3-1 p:last-of-type, #sections #section-3 #text-3-2 p:last-of-type {
+      padding-bottom: 0; }
+  #sections #section-3 #text-3-2 {
+    font-size: 0.9em;
+    padding: 10px;
+    top: calc(17% + 90px); }
+  #sections #section-4 {
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: linear-gradient(to left, #1A2980, #26D0CE);
+    text-align: center; }
+    #sections #section-4 h2 {
+      color: white;
+      margin-bottom: 15px; }
+    #sections #section-4 p {
+      color: white;
+      padding-bottom: 20px; }
+    #sections #section-4 .label-input label {
+      color: white;
+      margin-right: 15px; }
+    #sections #section-4 .label-input input {
+      height: 40px;
+      border: 0;
+      width: 250px;
+      padding: 0 10px;
+      font-size: 1.1em;
+      letter-spacing: 3px; }
+    #sections #section-4 .button-group {
+      margin-top: 15px;
+      white-space: nowrap; }
+    #sections #section-4 button {
+      border: 2px solid white;
+      padding: 10px 20px;
+      color: white;
+      background-color: transparent;
+      margin-top: 20px;
+      width: 180px;
+      margin: 5px; }
+      #sections #section-4 button:hover {
+        border-radius: 5px; }
+
+#overlay {
+  background-color: white;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 0;
+  width: calc(100% - 40px); }
+
+#section-nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+  list-style: none; }
+  #section-nav > li {
+    margin: 5px;
+    width: 50px; }
+    #section-nav > li > a {
+      display: block;
+      padding: 5px;
+      width: 100%;
+      color: white;
+      text-decoration: none; }
+      #section-nav > li > a:visited {
+        color: white; }
+    #section-nav > li:hover {
+      background-color: rgba(0, 0, 0, 0.2); }
+  #section-nav .active-item {
+    background-color: rgba(0, 0, 0, 0.4); }
+
+#nav-menu-btn-background {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid rgba(0, 0, 0, 0.5);
+  border-left: 100px solid transparent; }
+
+#nav-menu-btn-open, #nav-menu-btn-close {
+  position: fixed;
+  height: 25px;
+  width: 25px;
+  top: 35px;
+  right: 35px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(res/svg/nav-btn-open.svg); }
+  #nav-menu-btn-open:hover, #nav-menu-btn-close:hover {
+    cursor: pointer; }
+
+#nav-menu-background {
+  position: fixed;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  pointer-events: all;
+  background-image: url(res/images/fabric-1-dark.png);
+  opacity: 0;
+  display: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+#nav-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 55px;
+  display: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center; }
+  #nav-menu .nav-menu-part {
+    position: absolute;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: scale(0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  #nav-menu #nav-menu-1 {
+    background-image: url(res/svg/nav-menu-1.svg);
+    width: 100%; }
+  #nav-menu #nav-menu-2 {
+    background-image: url(res/svg/nav-menu-2.svg);
+    width: 50%; }
+  #nav-menu #nav-menu-3 {
+    background-image: url(res/svg/nav-menu-3.svg);
+    width: 50%;
+    right: 0; }
+  #nav-menu #nav-menu-btn-close {
+    background-image: url(res/svg/nav-btn-close.svg);
+    transform: scale(0, 0); }
+  #nav-menu #nav-menu-links {
+    display: inline-block;
+    white-space: nowrap; }
+    #nav-menu #nav-menu-links .nav-menu-link {
+      line-height: 55px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      top: -80px;
+      opacity: 0; }
+      #nav-menu #nav-menu-links .nav-menu-link:not(:first-child):not(:last-child) {
+        margin: 0 80px; }
+      #nav-menu #nav-menu-links .nav-menu-link:hover {
+        text-decoration: underline; }
+
+#responsive {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  text-align: center; }
+  #responsive p {
+    padding-top: 30px; }
+
+@media screen and (max-width: 740px) {
+  #main-container {
+    display: none !important; }
+  #responsive {
+    display: block; } }
