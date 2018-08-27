@@ -24,7 +24,7 @@ window.onload = function () {
         "../res/svg/nav-menu-1.svg",
         "../res/svg/nav-menu-2.svg",
         "../res/svg/nav-menu-3.svg",
-        "../res/svg/vid2.webm"
+        "../res/vid2.webm"
     ]);
 
 
