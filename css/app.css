@@ -115,7 +115,8 @@ button, input {
           padding: 10px 20px;
           color: white;
           background-color: transparent;
-          margin-top: 20px; }
+          margin-top: 20px;
+          white-space: nowrap; }
           #sections #section-2 #content-right #text-2-1 button:hover {
             border-radius: 5px; }
   #sections #section-3 #text-3-1, #sections #section-3 #text-3-2 {
