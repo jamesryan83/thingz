@@ -20,11 +20,11 @@ window.onload = function () {
     }, this)
     preload.loadManifest([
         "res/images/fabric-1-dark.png",
-        "../res/svg/nav-btn-close.svg",
-        "../res/svg/nav-menu-1.svg",
-        "../res/svg/nav-menu-2.svg",
-        "../res/svg/nav-menu-3.svg",
-        "../res/vid2.webm"
+        "res/svg/nav-btn-close.svg",
+        "res/svg/nav-menu-1.svg",
+        "res/svg/nav-menu-2.svg",
+        "res/svg/nav-menu-3.svg",
+        "res/vid2.webm"
     ]);
 
 
