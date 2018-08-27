@@ -150,7 +150,7 @@ button, input {
     #sections #section-4 .label-input input {
       height: 40px;
       border: 0;
-      width: 250px;
+      width: 260px;
       padding: 0 10px;
       font-size: 1.1em;
       letter-spacing: 3px; }
@@ -258,7 +258,7 @@ button, input {
     background-image: url(../res/svg/nav-menu-2.svg);
     width: 50%; }
   #nav-menu #nav-menu-3 {
-    background-image: url(res/svg/nav-menu-3.svg);
+    background-image: url(../res/svg/nav-menu-3.svg);
     width: 50%;
     right: 0; }
   #nav-menu #nav-menu-btn-close {

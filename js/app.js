@@ -11,7 +11,7 @@ app.isNavMenuAnimating = false;
 
 
 // startup
-window.onload = function () {
+$(document).ready(function () {
 
     // preload assets
     var preload = new createjs.LoadQueue("../res/");
@@ -68,7 +68,7 @@ window.onload = function () {
 
     // temp
     //app.goToSection(2)
-}
+});
 
 
 
