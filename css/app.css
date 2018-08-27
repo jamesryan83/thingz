@@ -52,7 +52,7 @@ button, input {
       height: 20px;
       width: 30px;
       background-size: 100% 100%;
-      background-image: url(res/svg/next-page.svg); }
+      background-image: url(../res/svg/next-page.svg); }
       #sections .section .next-page-btn:hover {
         cursor: pointer; }
   #sections #section-1 {
@@ -92,9 +92,9 @@ button, input {
           #sections #section-2 #content-left #scroll-items #scroll-arrow-left-btn:active, #sections #section-2 #content-left #scroll-items #scroll-arrow-right-btn:active {
             transform: translate(-50%, -50%) scale(0.9); }
         #sections #section-2 #content-left #scroll-items #scroll-arrow-left-btn {
-          background-image: url(res/svg/arrow-left.svg); }
+          background-image: url(../res/svg/arrow-left.svg); }
         #sections #section-2 #content-left #scroll-items #scroll-arrow-right-btn {
-          background-image: url(res/svg/arrow-right.svg); }
+          background-image: url(../res/svg/arrow-right.svg); }
         #sections #section-2 #content-left #scroll-items #scroll-main {
           float: left;
           width: calc(100% - 80px);
@@ -215,7 +215,7 @@ button, input {
   right: 35px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url(res/svg/nav-btn-open.svg); }
+  background-image: url(../res/svg/nav-btn-open.svg); }
   #nav-menu-btn-open:hover, #nav-menu-btn-close:hover {
     cursor: pointer; }
 
@@ -227,7 +227,7 @@ button, input {
   left: 20px;
   background-color: rgba(0, 0, 0, 0.2);
   pointer-events: all;
-  background-image: url(res/images/fabric-1-dark.png);
+  background-image: url(../res/images/fabric-1-dark.png);
   opacity: 0;
   display: none;
   -webkit-backface-visibility: hidden;
@@ -252,17 +252,17 @@ button, input {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
   #nav-menu #nav-menu-1 {
-    background-image: url(res/svg/nav-menu-1.svg);
+    background-image: url(../res/svg/nav-menu-1.svg);
     width: 100%; }
   #nav-menu #nav-menu-2 {
-    background-image: url(res/svg/nav-menu-2.svg);
+    background-image: url(../res/svg/nav-menu-2.svg);
     width: 50%; }
   #nav-menu #nav-menu-3 {
     background-image: url(res/svg/nav-menu-3.svg);
     width: 50%;
     right: 0; }
   #nav-menu #nav-menu-btn-close {
-    background-image: url(res/svg/nav-btn-close.svg);
+    background-image: url(../res/svg/nav-btn-close.svg);
     transform: scale(0, 0); }
   #nav-menu #nav-menu-links {
     display: inline-block;

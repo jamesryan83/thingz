@@ -69,7 +69,7 @@ $padding: 20px;
             height: 20px;
             width: 30px;
             background-size: 100% 100%;
-            background-image: url(res/svg/next-page.svg);
+            background-image: url(../res/svg/next-page.svg);
 
             &:hover {
                 cursor: pointer;
@@ -140,11 +140,11 @@ $padding: 20px;
                 }
 
                 #scroll-arrow-left-btn {
-                    background-image: url(res/svg/arrow-left.svg);
+                    background-image: url(../res/svg/arrow-left.svg);
                 }
 
                 #scroll-arrow-right-btn {
-                    background-image: url(res/svg/arrow-right.svg);
+                    background-image: url(../res/svg/arrow-right.svg);
                 }
 
                 // images
@@ -361,7 +361,7 @@ $padding: 20px;
     right: 35px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url(res/svg/nav-btn-open.svg);
+    background-image: url(../res/svg/nav-btn-open.svg);
 
     &:hover {
         cursor: pointer;
@@ -378,7 +378,7 @@ $padding: 20px;
     left: $padding;
     background-color: rgba(0, 0, 0, 0.2);
     pointer-events: all;
-    background-image: url(res/images/fabric-1-dark.png);
+    background-image: url(../res/images/fabric-1-dark.png);
     opacity: 0;
     display: none;
     backface-visibility: hidden;
@@ -404,12 +404,12 @@ $padding: 20px;
     }
 
     #nav-menu-1 {
-        background-image: url(res/svg/nav-menu-1.svg);
+        background-image: url(../res/svg/nav-menu-1.svg);
         width: 100%;
     }
 
     #nav-menu-2 {
-        background-image: url(res/svg/nav-menu-2.svg);
+        background-image: url(../res/svg/nav-menu-2.svg);
         width: 50%;
     }
 
@@ -420,7 +420,7 @@ $padding: 20px;
     }
 
     #nav-menu-btn-close {
-        background-image: url(res/svg/nav-btn-close.svg);
+        background-image: url(../res/svg/nav-btn-close.svg);
         transform: scale(0, 0);
     }
 
